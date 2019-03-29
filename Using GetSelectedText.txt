@@ -1,0 +1,26 @@
+Using GetSelectedText() that lots of people have, I have a few shortcuts:
+
+#g:: Run % "http://www.google.com/search?q=" . GetSelectedText()
+
+#o:: Run % GetSelectedText()
+
+in case someone needs it:
+
+GetSelectedText() {
+
+tmp = %ClipboardAll% ; save clipboard
+
+Clipboard := "" ; clear clipboard
+
+Send, ^c ; simulate Ctrl+C (=selection in clipboard)
+
+ClipWait, 1 ; wait until clipboard contains data
+
+selection = %Clipboard% ; save the content of the clipboard
+
+Clipboard = %tmp% ; restore old content of the clipboard
+
+return (selection = "" ? Clipboard : selection)
+
+}
+3

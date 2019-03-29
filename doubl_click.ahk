@@ -1,0 +1,1 @@
+!Lbutton:: sendplay {click 2}

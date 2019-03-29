@@ -1,0 +1,43 @@
+;+=Shift #=Win !=Alt ^=Ctrl
+
+
+ESC - close windows
+
+Reverse the direction of wheel-zooming in some apps, so up=in and down=out in all of them.
+
+Panic button - hide active window
+
+Ctrl+Alt+N opens notepad, unlike the windows shortcut I had before, I can open multiple notepads with this.
+
+Chime when caps lock is pressed. (To prevent aCCIDENTS.)
+
+If iTunes is open -> right click to send email and password
+
+^+w -> close windows
+
+^+y to launch the AU3_Spy.exe for AHK
+
+auto-copy selected text
+
+[*:3s25r5ae]WindowPad - quickly and easily move and resize windows with the keyboard. (Search the forum's if you're interested.)Mouse gestures areextremely useful (IMO); I can't live without 'em. I haven't released my gestures script, but its main uses are:
+(RButton is the trigger; down,left means down, then left, not diagonally)
+
+make custom homepage, then make key combo to type file path
+
+append whatever is on clipboard to clipboard.txt
+
+I have a script that is always running with more than a hundred hotkeys linked to often-used tasks. I use this script to open files/folders/websites, start programs/emails, enter accounts, change fonts, select default printer, track shipping and so on. I even use macros to edit and reload my script file while I’m using it.
+
+all major apps have shortcuts to srart and operate
+
+numlock to close a window (I simply could not live with the need to click the idiotic cross)
+
+- I use multimonitor to switch applications from screens when docked in a docking with an external screen.
+
+make tooltip take input as command to run stuff
+
+;These three lines *maybe* make the backtick do a backspace, while ~ will still work and Ctrl+~ sends a backtick
+$`::Backspace
+$+`::send {~} 
+$^`::send ``
+
